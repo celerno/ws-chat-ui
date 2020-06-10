@@ -21,8 +21,7 @@ ReactDOM.render(
         domain={config.domain}
         client_id={config.clientId}
         redirect_uri={window.location.origin}
-        onRedirectCallback={onRedirectCallback}
-    >
+        onRedirectCallback={onRedirectCallback}>
         <App />
     </Auth0Provider>,
     document.getElementById("root")

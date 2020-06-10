@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactHtmlParser from 'react-html-parser'; 
 import { w3cwebsocket as WS } from "websocket";
 import './App.css';
 import { useAuth0 } from "./react-auth0-spa";
