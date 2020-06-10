@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import createAuth0Client from "@auth0/auth0-spa-js";
  
-const DEFAULT_REDIRECT_CALLBACK = () =>
-    window.history.replaceState({}, document.title, window.location.pathname);
+const DEFAULT_REDIRECT_CALLBACK = (appState) => window.history.setState(appState,"chat", 'https://chamizo.pro/chat');
 
 export const Auth0Context = React.createContext();
 export const useAuth0 = () => useContext(Auth0Context);

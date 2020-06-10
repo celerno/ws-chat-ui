@@ -1,5 +1,6 @@
 {
   "name": "chat-ui",
+  "homepage":"https://chamizo.pro/chat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
